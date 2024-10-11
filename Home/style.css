@@ -1,0 +1,388 @@
+
+body{
+    margin: 0px;
+    background: linear-gradient(45deg, #090724,#0b2921); 
+    position: relative;
+}
+/* header part */
+#header_box{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #777;
+}
+.header_logo{
+    width: 200px;
+    font-size: 20px;
+    display: flex;
+    margin: 8px;
+}    
+.header_logo p{
+    width: 100px;
+    margin: 8px;
+    margin-left: 0;
+    font-size: 30px;
+    color: #34e451;
+}
+.header_logo img {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    color: #34e451;
+    margin-right: 0;
+}    
+.navbar_menu ul{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #666;*/
+ }
+.navbar_menu li{
+    width: 60px;
+    padding: 8px 40px;
+    list-style: none;   
+    font-size: 13px;
+    color: #fff;
+}
+.navbar_menu li:hover{
+    color: #34e451;
+}
+/* search box */
+.search_box input{
+    background: url(/home/img/search_FILL0_wght400_GRAD0_opsz24.png\ \(2\).png)
+    no-repeat 5px center; 
+    width: 800px;
+    height: 20px;
+    background-size: 20px;
+    padding-left: 40px;
+    border-radius: 4px;
+    margin: 25px ;
+    color: #777;
+}
+/* login */
+.header_login{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8px;
+ 
+}
+.header_login p{
+    width: 60px;
+    height: 20px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 3px;
+    color: #fff;
+    font-size: 12px;
+ } 
+.header_login img{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    font-size: 12px;
+    color: #777;
+    margin-top: 3px;
+ }
+    
+/* Discover daily */
+#main_date{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #d0f175;
+    display: flex;
+}
+#main_date p{
+    margin: 0 30px;
+    padding-top: 10px;
+    color:#fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#main_date {
+    display: flex;
+    align-items: center;
+}
+/* mini_calendar */
+.mini_calendar {
+    margin-left: 10px; /* 필요한 경우 여백 조정 */
+
+}
+
+.calendar {
+    width:50px;
+    height: 50px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 10px;
+    /* border: 1px solid #c02525; */
+}
+
+.top {
+    width: 50px;
+    height: 20px;
+    background-color: #ff2525bb;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+}
+
+.bottom {
+    /* font-weight: bold; */
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    border-radius:0 0 10px 10px;
+}
+    
+ .top #month  {
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 2px;
+    display: block;
+     /* border: 1px solid #2825c0; */
+     /* line-height: 90px; */
+    }  
+.bottom #date{
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #353434;
+    padding-top: 5px;
+    display: block;
+    /* border: 1px solid #2825c0; */
+
+}  
+/* Slide box  */
+.slide_section{
+ width: vh;
+ height: 250px;
+ display: flex;
+ flex-direction:wrap;
+ justify-content: center;
+ align-items: center;
+ border: 1px solid #fff;
+ 
+}
+/* insert img  */
+.slide_1{
+    width: 350px;
+    height: 165px;
+    border-radius: 10px;
+    margin: 15px 20px;
+    position: relative;
+    background:url(/Home/img/slidebox/시즌-2.webp) no-repeat center center/cover;
+    opacity: 1;
+    /* border: 1px solid #fff; */
+}
+.slide_2{
+    width: 350px;
+    height: 165px;
+    border-radius: 10px;
+    margin: 15px 20px;
+    position: relative;
+    background:url(/Home/img/slidebox/다다단-1.webp) no-repeat center center/cover;
+    opacity: 1;
+    /* border: 1px solid #fff; */
+}
+.slide_3{
+    width: 350px;
+    height: 165px;
+    border-radius: 10px;
+    margin: 15px 20px;
+    position: relative;
+    background:url(/Home/img/slidebox/다패-1.webp) no-repeat center center/cover;
+    opacity: 1;
+    /* border: 1px solid #fff; */
+}
+.slide_4{
+    width: 350px;
+    height: 165px;
+    border-radius: 10px;
+    margin: 15px 20px;
+    position: relative;
+    background:url(/Home/img/slidebox/굿럭-1.webp) no-repeat center center/cover;
+    opacity: 1;
+    /* border: 1px solid #fff; */
+}
+
+.today_trend {
+    color:#fff;
+    left:5px;
+}
+/* 오늘의 트렌드  */
+.today_trend li{
+    list-style: none;
+    position: absolute;
+    top:-5px;
+    right: -5px;
+    width: 115px;
+    height: 25px;
+    border-radius: 0 20px ;
+    background-color: #fff;
+    color: #0c0c0c;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 14px;
+    /* margin: 0 10px 150px 160px; */
+    /* border: 1px solid #fff; */
+}
+/* 2024.1시간 7분 */
+.today_trend p{
+    font-size: 12px;
+    padding-top:  20px;
+}
+/* 반지의 제왕:  */
+.today_trend h3{
+    margin-top:  0;
+}
+/* (시즌2)  */
+.today_trend h5{
+    font-size: 12px;
+    margin-top:  0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* 지금 시청하기 */
+ .slide_1 .watching  a,
+ .slide_2 .watching  a,
+ .slide_3 .watching  a,
+ .slide_4 .watching  a {
+    width: 320px;
+    height: 28px;
+    border-radius: 5px ;
+    color:#fff;
+    font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    background-color: #454c57;
+}
+/* container box  */
+
+
+#article{ 
+    /* width: 100vh; */
+    /* height: 2500px; */ 
+    position: absolute;
+    top: 410px;
+    color: #fff;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    border: 1px solid #f14949;
+    /* padding: 10px; */
+    /* overflow: hidden; */
+    
+ }
+ .container_box1,
+ .container_box2,
+ .container_box3,
+ .container_box4,
+ .container_box5
+ { 
+   width: 100vh;
+   height: 500px;
+   left: 20px;
+   /* display: flex;
+   flex-direction:wrap;
+   justify-content: space-between; */
+   border: 1px solid #abf7be;
+
+ }
+/* 
+.container_box1 h2,
+.container_box2 h2,
+.container_box3 h2,
+.container_box4 h2,
+.container_box5 h2
+{
+    /* width: 500px;
+    height: 50px; */
+    /* left: 50px; */
+    /* border: 1px solid #f1e649; */
+  
+
+/* }   */
+   
+ .container_box1 ul{
+    width:100vh;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    top: 100px;
+    left: 20px;
+    border: 1px solid #1eee52;
+    display: block;
+
+}
+#article li {
+    width: 200px;
+    height: 250px;   
+    /* margin: 10px 10px; */
+    list-style: none;
+    border: 1px solid #d760f5;
+    display: block;
+}
+
+.comedy a {
+    text-decoration: none;
+    color: #333;  
+    /* padding: 10px;  */
+    display: block; 
+    transition: background-color 0.3s; 
+} 
+
+/* .comedy a:hover { */
+    /* background-color: #f0f0f0;  */
+/* } */
+
+/* 추가적인 스타일 설정 */
+
+
+
+.comedy{}
+
+#container_box2{}
+#container_box2 h2{}
+.houre{}
+
+#container_box3{}
+#container_box3 h2{}
+.musical{}
+
+#container_box4{}
+#container_box4 h2{}
+.action{}
+
+#container_box3{}
+#container_box3 h2{}
+.Romance{}
+
+/* 미디어 쿼리 */
+/* 화면 너비가 0~1280px
+@media (max-width: 1280px){
+body{ background: #ac0c61;}
+}
+@media(max-width: 1024px){
+body{background: #6e28c4;}
+}
+@media(max-width : 960px){
+body{background: #25c9df;}
+}
+@media(max-width: 768px){
+body{background: #3cbe22;}
+}
+@media(max-width: 568px){
+body{background: #ddb5f5;}
+} */
